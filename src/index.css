@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700');
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: White;
+
+  background-color: #1A1A1A;
+
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+/* --- CSS Section For Header --- */
+
+header {
+  margin-top: 0;
+  top: 0;
+  width: 99vw;
+  height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+
+  position: fixed;
+}
+
+.header-button {
+  margin-left: 220px;
+}
+
+.header-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.header-nav {
+  list-style: none;
+}
+
+.header-nav li {
+  display: inline-block;
+  padding: 0px 13px;
+}
+
+.header-nav li a {
+  transition: all 0.3s ease 0s;
+}
+
+.header-nav li a:hover {
+  color: rgb(129, 126, 126);
+}
+
+a:hover{
+  color: rgb(129, 126, 126);
+}
+
+/* --- CSS Section For Landing --- */
+
+.landing-grid {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+
+  width: 99vw;
+  height: 81vh;
+
+  text-align: right;
+}
+
+.landing-grid-item {
+  /* border: 1px solid white; */
+}
+
+.landing-text {
+  font-size: 130px;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.landing-text-inverted {
+  font-size: 50px;
+  color: #1A1A1A;
+
+  text-align: right;
+  text-align: bottom;
+  margin-right: 2%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-left: 8px;
+  padding-right: 8px;
+
+  background-color: #D9D9D9;
+}
+
+/* --- CSS Section For Divider --- */
+.divider-grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+
+  margin: auto;
+
+  width: 95vw;
+  height: 5vw;
+}
+
+.divider-grid-right {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+
+  margin: auto;
+
+  width: 95vw;
+  height: 5vw;
+}
+
+.divider-grid-left {
+  display: grid;
+  grid-template-columns: 2.1fr 4fr;
+
+  margin: auto;
+
+  width: 95vw;
+  height: 5vw;
+}
+
+.divider-grid-item {
+  display: flex;
+  align-items: center;
+
+}
+
+.divider-line {
+  width: 99%;
+}
+
+.divider-text-inverted {
+  font-size: 50px;
+  color: #1A1A1A;
+
+  text-align: center;
+  text-align: bottom;
+  margin-right: 2%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-left: 8px;
+  padding-right: 8px;
+
+  background-color: #D9D9D9;
+}
+
+/* --- CSS Section For Divider --- */
+.experience-grid {
+  /* border: 1px solid white; */
+  display: grid;
+  grid-template-columns: 1.2fr 3fr;
+
+  margin: auto;
+
+  width: 94vw;
+  height: 88vh;
+}
+
+.experience-grid-item {
+  /* border: 1px solid white; */
+}
+
+.border {
+  /* border: 1px solid white; */
+}
+
+.experience-grid-center {
+  /* border: 1px solid red; */
+
+  height: 80%;
+  width: 50%;
+  min-width: 760px;
+  margin-top: 7%;
+  margin-bottom: auto;
+  margin-left: 25%;
+
+}
+
+.experience-grid-center-expProf {
+  /* border: 1px solid red; */
+
+  height: 80%;
+  width: 50%;
+  min-width: 760px;
+  margin-top: 2%;
+  margin-bottom: auto;
+  margin-left: 25%;
+
+}
+
+.experience-grid-center-projects {
+  /* border: 1px solid red; */
+
+  height: 80%;
+  width: 50%;
+  min-width: 760px;
+  margin-top: 2%;
+  margin-bottom: auto;
+  margin-left: 15%;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.experience-grid-center-HIW {
+  /* border: 1px solid red; */
+
+  height: 80%;
+  width: 50%;
+  min-width: 760px;
+  margin-top: 2%;
+  margin-bottom: auto;
+  margin-left: 15%;
+
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.experience-grid-center-projects-item {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+  min-height: 80px;
+  min-width: 800px;
+  margin-top: 3%;
+
+}
+
+.project-item-header {
+  font-weight: 700;
+  text-align: left;
+}
+
+.project-item-tec {
+  font-style: italic;
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 0;
+
+}
+
+.experience-nav-grid {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr;
+
+  margin: auto;
+  margin-right: 0;
+
+  width: 100%;
+  min-width: 400px;
+  height: 90%;
+}
+
+.experience-nav-grid-item {
+  /* border: 1px solid white; */
+
+  font-size: 50px;
+  text-align: left;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0;
+
+  /* display: grid;
+  grid-template-columns: 0.1fr 1fr; */
+}
+
+.experience-nav-pointer {
+  width: 10px;
+  height: 5px;
+  background-color: white;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* --- CSS Section For Timeline --- */
+.timeline-grid {
+  /* border: 1px solid white; */
+
+  display: grid;
+  grid-template-columns: 0.25fr 3fr 4fr;
+  grid-template-rows: 1fr 0.1fr 1fr 1fr 0.5fr;
+
+  margin-left: 1%;
+  margin-top: 15px;
+  width: auto;
+
+  max-height: 75px;
+}
+
+.timeline-grid-l2 {
+  /* border: 1px solid white; */
+
+  display: grid;
+  grid-template-columns: 0.25fr 3fr 4fr;
+  grid-template-rows: 1fr 0.1fr 1fr 1fr 0.5fr;
+
+  margin-left: 7%;
+  margin-top: 15px;
+
+  width: auto;
+  max-height: 75px;
+}
+
+.timeline-grid-item {
+  /* border: 1px solid white; */
+}
+
+.italics {
+  font-style: italic;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.vertical-line {
+  border-left: 1px solid white;
+  height: 120%;
+  width: 1px;
+  margin: auto;
+}
+
+.gridFromTo1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.gridFromTo2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+
+  /* min-width: 350px; */
+}
+
+.gridFromTo2-1 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+
+  min-width: 350px;
+  margin-right: 10px;
+}
+
+.gridFromTo3 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.gridFromTo4 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.gridFromTo5 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+  /* border: 1px solid white; */
+  min-width: 440px;
+}
+
+.gridFromTo5-2 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+  /* border: 1px solid white; */
+  /* min-width: 100px; */
+}
+
+.gridFromTo5-3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+  /* border: 1px solid white; */
+  /* min-width: 430px; */
+}
+
+.minWidth {
+  /* min-width: 1000px; */
+}
+
+.marginLess{
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.colorGrey {
+  color: #7D7D7D;
+}
+
+
+
+/* --- CSS Section For Timeline --- */
+.conclusion-grid {
+  display: grid;
+  grid-template-columns: 0.1fr 3fr;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+.conclusion-grid-item-text {
+  margin-left: 20px;
+
+}
+
+.conclusion-grid-item-img {  
+  margin: auto;
+  
+}
+
+.widthSmall {
+  width: 400px;
+}
+
+.widthSmallS {
+  width: 350px;
+}
+
+.widthSmallSS {
+  width: 250px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* --- CSS Section For Mission --- */
+
+.mission-grid {
+  /* border: 1px solid white; */
+  display: grid;
+  grid-template-columns: 1.2fr 3fr;
+
+  margin: auto;
+
+  width: 94vw;
+  height: 88vh;
+}
