@@ -6,15 +6,15 @@ export default function TimelineL2(props) {
     const [hovering1, setHovering1] = useState(false);
 
     const display1 = {
-        visibility: hovering1 === true ? 'visible' : 'hidden'
+        display: hovering1 === true ? 'initial' : 'none'
     }
 
     const display2 = {
-        display: props.line2 === "" ? 'none' : 'initial'
+        minHeight: hovering1 === true ? '100px' : 'auto'
     }
 
     return (
-        <div className="timeline-grid-l2" onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}}>
+        <div style={display2} className="timeline-grid-l2 minWidth" onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}}>
 
             <div className="timeline-grid-item gridFromTo1">
                 {props.time}
@@ -33,11 +33,17 @@ export default function TimelineL2(props) {
                 {props.minor}
             </div>
 
-            <div style={display1} className="timeline-grid-item gridFromTo5-2">
+            <div style={display1} className="timeline-grid-item font14 gridFromTo4-test">
+                {props.line1}
+                {<br/>}
+                {props.line2}            
+            </div>
+
+            {/* <div style={display1} className="timeline-grid-item gridFromTo5-2">
                 <ul className="marginLess">
                 <p className="font12 colorGrey widthSmallS justify">{props.line1}</p>
                 </ul>
-            </div>
+            </div> */}
 
         </div>
     )

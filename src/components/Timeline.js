@@ -14,11 +14,15 @@ export default function Timeline(props) {
     };
 
     const display1 = {
-        visibility: hovering1 === true ? 'visible' : 'hidden'
+        display: hovering1 === true ? 'initial' : 'none',
+    }
+
+    const display2 = {
+        minHeight: hovering1 === true ? '100px' : 'auto',
     }
 
     return (
-        <div className="timeline-grid minWidth" onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}}>
+        <div style={display2} className="timeline-grid-test minWidth" onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}}>
 
             <div className="timeline-grid-item gridFromTo1">
                 {props.time}
@@ -37,12 +41,17 @@ export default function Timeline(props) {
                 {props.minor}
             </div>
 
-            <div style={display1} className="timeline-grid-item gridFromTo5">
+            <div style={display1} className="timeline-grid-item font14 gridFromTo4-test">
+                {props.line1}
+                {<br/>}
+                {props.line2}
+            </div>
+
+            {/* <div style={display1} className="timeline-grid-item gridFromTo5">
                 <ul className="marginLess">
                     <p className="font12 colorGrey widthSmall justify">{props.line1}</p>
-                    {/* <li className="font12 colorGrey">{props.line2}</li> */}
                 </ul>
-            </div>
+            </div> */}
 
         </div>
     )
