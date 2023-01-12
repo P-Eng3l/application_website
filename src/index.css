@@ -59,6 +59,22 @@ header {
   color: rgb(129, 126, 126);
 }
 
+span a {
+  transition: all 0.3s ease 0s;
+}
+
+span a:hover {
+  color: rgb(129, 126, 126);
+}
+
+/* button a img {
+  transition: all 0.3s ease 0s;
+}
+
+button a img:hover {
+  filter: invert(46%) sepia(0%) saturate(25%) hue-rotate(137deg) brightness(106%) contrast(86%);
+} */
+
 /* a:hover{
   color: rgb(129, 126, 126);
 } */

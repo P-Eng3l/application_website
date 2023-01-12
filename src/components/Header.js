@@ -11,23 +11,23 @@ export default function Header() {
             </span>
 
             <button className="header-button">
-                <img src="./main_icon.svg" className="header-icon" alt='Home Button' />
+                <a href="#landing"><img src="./main_icon.svg" className="header-icon" alt='Home Button' /></a>
             </button>
 
             <nav>
                 <ul className="header-nav">
                     <li>
-                        <a href="experience">
+                        <a href="#experience">
                             Experience
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#mission">
                             Mission
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#match">
                             Helsing
                         </a>
                     </li>

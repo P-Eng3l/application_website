@@ -4,7 +4,7 @@ import '../index.css'
 export default function Landing() {
 
     return (
-        <div className="landing-grid">
+        <div className="landing-grid" id="landing">
 
             <div className="landing-grid-item">
 

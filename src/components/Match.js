@@ -4,7 +4,7 @@ import '../index.css'
 export default function Match() {
 
     return (
-        <div className="mission-grid">
+        <div className="mission-grid" id="match">
             <div>
                  
             </div>

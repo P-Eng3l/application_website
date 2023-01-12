@@ -4,7 +4,7 @@ import '../index.css'
 export default function Mission() {
 
     return (
-        <div className="mission-grid">
+        <div className="mission-grid" id="mission">
             <div className="mission-grid-right">
 
                 <div className="border">
