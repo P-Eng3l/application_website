@@ -16,8 +16,8 @@ export default function Mission() {
 
                 <div className="mission-grid-right-quote-container border">
                     <p className="mission-grid-right-explanation border">
-                        Beeing first offended by this statement, my time at the military has demonstrated it`s brutal accuracy, particularly for the integration of 
-                        software components in the currently hardware dominated defence sector. This transformation is the core issue, why we fall behind.
+                        Being offended by that statement at first, my time at the military has demonstrated its brutal accuracy, particularly for the integration of 
+                        software components in the currently hardware dominated defence sector. This transformation is the main issue, why we fall behind.
                         {/* Beeing first offended by this statement, 
                         my time at the military has demonstrated it`s inherent brutal accuracy.
                         Safety Critical Technology is certainly an area, in which we fall behind and lack innovation. */}
@@ -25,7 +25,7 @@ export default function Mission() {
                         This is not limited to Germany, but the entire E.U. is in severe need for a modern and operational military to protect our liberal 
                         and democratic way of life - serving as an antidode for severe geopolitical disruptions.
                         <br /> <br /> 
-                        However, given the nature of the field itselfe, solutions for this challenge are only rarely coming from external sources. Posing a significant risk for democraties,
+                        However, given the nature of the field itself, solutions for this challenge are only rarely coming from external sources. Posing a significant risk for democracies,
                         in which participation of diverse groups is foundational - especially for such an essential part of democracy. 
                         <br /> <br />
                         The transformation of the defence sector necessarily needs new entrepreneurial players, marking a unique possibility for me to use my aquired skills 
