@@ -117,7 +117,11 @@ export default function Experience() {
                 </div>
             </div>
 
-            <div className="experience-grid-item">
+            <div>
+
+            </div>
+
+            <div className="experience-grid-item mindWidth1">
 
                 {category}
 

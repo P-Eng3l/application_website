@@ -41,18 +41,18 @@ function App() {
 
   return (
 
-    MobileWarning ? <MobileWarningJS /> : <Landing /> 
+    MobileWarning ? <MobileWarningJS /> : 
 
-    // <> 
-    //   <Header /> 
-    //   <Landing /> 
-    //   <Divider />
-    //   <Experience />
-    //   <DividerLeft />
-    //   <Mission />
-    //   <DividerRight />
-    //   <Match />
-    // </>
+    <> 
+      <Header /> 
+      <Landing /> 
+      <Divider />
+      <Experience />
+      <DividerLeft />
+      <Mission />
+      <DividerRight />
+      <Match />
+    </>
   );
 }
 

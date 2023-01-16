@@ -62,7 +62,8 @@ export default function Projects() {
 
     return (
 
-        <div style={{ marginTop: "12%" }} className="experience-grid-center-projects">
+        <div className="experience-grid-center-projects">
+            
             <button style={{ marginTop: "0" }} className="experience-grid-center-projects-item"
                 onClick={() => openInNewTab('https://ucb-info-frontend-webarch.github.io/final-project-team-5-fall22/')}
                 onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}} >
@@ -107,11 +108,11 @@ export default function Projects() {
                 </p>
             </button>
 
-            <button className="experience-grid-center-projects-item2">
+            {/* <button className="experience-grid-center-projects-item2">
                 <div className="project-item-header2">
                     ... More Projects Coming Soon
                 </div>
-            </button>
+            </button> */}
 
         </div>
     )

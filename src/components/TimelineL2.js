@@ -14,7 +14,7 @@ export default function TimelineL2(props) {
     }
 
     return (
-        <div style={display2} className="timeline-grid-l2 minWidth" onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}}>
+        <div style={display2} className="timeline-grid-l2" onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}}>
 
             <div className="timeline-grid-item gridFromTo1">
                 {props.time}

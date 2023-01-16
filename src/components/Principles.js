@@ -40,7 +40,7 @@ export default function Principles() {
 
         <div className="experience-grid-center-projects">
             
-            <button style={{marginTop: "150px"}} className="experience-grid-center-projects-item" 
+            <button style={{marginTop: "0"}} className="experience-grid-center-projects-item" 
                 onMouseOver={() => {setHovering1(true)}} onMouseOut={() => {setHovering1(false)}} >
                 <div className="project-item-header">
                     Mission Driven & Ownership Oriented
@@ -53,7 +53,7 @@ export default function Principles() {
                 </p>
             </button>
             
-            <button style={{marginTop: "10px"}} className="experience-grid-center-projects-item"
+            <button className="experience-grid-center-projects-item"
                 onMouseOver={() => {setHovering2(true)}} onMouseOut={() => {setHovering2(false)}} >
                 <div className="project-item-header">
                     Proactive & Self-Managing
@@ -66,7 +66,7 @@ export default function Principles() {
                 </p>
             </button>
 
-            <button style={{marginTop: "10px"}} className="experience-grid-center-projects-item"
+            <button style={{marginBottom: "0"}} className="experience-grid-center-projects-item"
                 onMouseOver={() => {setHovering3(true)}} onMouseOut={() => {setHovering3(false)}} > 
                 <div className="project-item-header">
                     TBD

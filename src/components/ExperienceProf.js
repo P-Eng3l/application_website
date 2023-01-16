@@ -7,7 +7,7 @@ export default function ExperienceProf() {
 
     return (
 
-        <div className="experience-grid-center-expProf">
+        <div className="experience-grid-center">
             <Timeline
                 time="11/2021 - 01/2022"
                 main="Founders Associate - Luminovo"
