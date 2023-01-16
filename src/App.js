@@ -12,9 +12,17 @@ import MobileWarningJS from './components/MobileWarning.js'
 
 function App() {
 
-  const [MobileWarning, setShowMobileWarning] = useState(false)
+  const [MobileWarning, setShowMobileWarning] = useState(() => {
+    if (window.innerWidth <= 800){
+      console.log("Mobile Default size");
+      return true;
+    }
+    console.log("Desktop Default size");
+    return false;
+  })
 
   useEffect(() => {
+
     function handleResize() {
       if (window.innerWidth <= 800)
         setShowMobileWarning(true)
@@ -27,7 +35,7 @@ function App() {
   })
 
   useEffect(() => {
-    console.log(setShowMobileWarning);
+    console.log(MobileWarning);
     console.log(window.innerWidth);
   })
 
