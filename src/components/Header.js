@@ -1,21 +1,9 @@
 import { React, useState, useEffect } from 'react'
 import '../index.css'
-import Header_Mobile from './Header_Mobile.js'
-import Header_Desktop from './Header_Desktop.js'
 
 export default function Header() {
 
-    const [width, setWidth] = useState(window.innerWidth);
-    const breakpoint = 880;
-
-    useEffect(() => {
-
-        window.addEventListener("resize", () => setWidth(window.innerWidth));
-
-    }, []);
-
     return (
-        // width < breakpoint ? <Header_Mobile /> : <Header_Desktop />
         <header className="">
 
             <span className="">

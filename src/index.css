@@ -638,3 +638,14 @@ button a img:hover {
 /* .border {
   border: 1px solid white ;
 } */
+
+.MobileWarning {
+  width: 99vw;
+  height: 99vh;
+}
+
+.MobileWarning-Text {
+  font-size: 3.2vw;
+  margin-left: 10%;
+  margin-right: 10%;
+}
