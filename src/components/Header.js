@@ -1,21 +1,33 @@
-import { React } from 'react'
+import { React, useState, useEffect } from 'react'
 import '../index.css'
+import Header_Mobile from './Header_Mobile.js'
+import Header_Desktop from './Header_Desktop.js'
 
 export default function Header() {
 
-    return (
-        <header>
+    const [width, setWidth] = useState(window.innerWidth);
+    const breakpoint = 880;
 
-            <span>
+    useEffect(() => {
+
+        window.addEventListener("resize", () => setWidth(window.innerWidth));
+
+    }, []);
+
+    return (
+        // width < breakpoint ? <Header_Mobile /> : <Header_Desktop />
+        <header className="">
+
+            <span className="">
                 <a href="https://www.linkedin.com/in/philippengel97/" target="_blank">Philipp Engel</a>
             </span>
 
-            <button className="header-button">
+            <button className="">
                 <a href="#landing"><img src="./main_icon.svg" className="header-icon" alt='Home Button' /></a>
             </button>
 
-            <nav>
-                <ul className="header-nav">
+            <nav className="">
+                <ul>
                     <li>
                         <a href="#experience">
                             Experience
