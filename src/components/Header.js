@@ -3,6 +3,14 @@ import '../index.css'
 
 export default function Header() {
 
+    const [hoveringSrc, setHoveringSrc] = useState("./main_icon_4.png");
+    const handleMouseOver = (e) => {
+        setHoveringSrc(e);
+    };
+    const handleMouseOut = (e) => {
+        setHoveringSrc(e);
+    };
+
     return (
         <header className="">
 
@@ -11,7 +19,7 @@ export default function Header() {
             </span>
 
             <button className="">
-                <a href="#landing"><img src="./main_icon.svg" className="header-icon" alt='Home Button' /></a>
+                <a href="#landing"><img src={hoveringSrc} className="header-icon" alt='Home Button' onMouseOver={() => {setHoveringSrc("./main_icon_5.png")}} onMouseOut={() => {setHoveringSrc("./main_icon_4.png")}}/></a>
             </button>
 
             <nav className="">

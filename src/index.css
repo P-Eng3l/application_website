@@ -61,6 +61,7 @@ header button {
 header .header-icon {
   width: 48px;
   height: 48px;
+  /* filter: invert(99%) sepia(32%) saturate(42%) hue-rotate(131deg) brightness(117%) contrast(100%); */
 }
 
 header nav {
@@ -98,9 +99,9 @@ span a:hover {
 
 /* button a img {
   transition: all 0.3s ease 0s;
-}
+} */
 
-button a img:hover {
+/* button a img:hover {
   filter: invert(46%) sepia(0%) saturate(25%) hue-rotate(137deg) brightness(106%) contrast(86%);
 } */
 

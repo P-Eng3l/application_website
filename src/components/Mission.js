@@ -30,7 +30,7 @@ export default function Mission() {
                     obligated to be at the forefront of technical innovation in this field and to open the
                     defense sector to innovation from entrepreneurial players.</p> <br />
 
-                    <p className="sub-headline">My Mission: Develop Ethical Aligned Software Systems</p><br />
+                    <p className="sub-headline">My Mission: Develop Ethical Aligned Software Systems For The Defense Sector</p><br />
                     <p className="text">Witnessing the first European entrepreneurial players entering this area 
                     marks a unique opportunity for me to return to the area of safety critical technology. 
                     Having prior experience in the defense industry and being educated in the ethical alignment 
