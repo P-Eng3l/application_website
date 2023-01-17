@@ -33,7 +33,7 @@ export default function Principles() {
         setHovering3(false);
     };
     const display3 = {
-        minHeight: hovering3 === true ? '80px' : 'auto',
+        minHeight: hovering3 === true ? '180px' : 'auto',
     }
 
     return (
@@ -69,13 +69,19 @@ export default function Principles() {
             <button style={{marginBottom: "0"}} className="experience-grid-center-projects-item"
                 onMouseOver={() => {setHovering3(true)}} onMouseOut={() => {setHovering3(false)}} > 
                 <div className="project-item-header">
-                    TBD
+                    Prioritize & Execute
                 </div>
                 <p style={display3} className="project-item-tec">
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                Working in an entrepreneurial context oftentimes means to deal with countless problems at once, 
+                which easily leads to the faulty approach of tackling all problems simultaneously. 
+                Having fallen victim to this mistake more than once, 
+                I adopted a strict approach of prioritizing and executing one task after the other, by:
+                    <ol >
+                        <li style={{color: "rgb(188, 186, 186)"}}>Evaluating the current highest priority task.</li>
+                        <li style={{color: "rgb(188, 186, 186)"}}>Laying out in simple and concise terms the priority to important stakeholders.</li>
+                        <li style={{color: "rgb(188, 186, 186)"}}>Developing a solution and seeking input from key stakeholders.</li>
+                        <li style={{color: "rgb(188, 186, 186)"}}>Focusing all efforts on executing the solution</li>
+                    </ol>
                 </p>
             </button>
 

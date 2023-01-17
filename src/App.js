@@ -50,8 +50,8 @@ function App() {
       <Experience />
       <DividerLeft />
       <Mission />
-      <DividerRight />
-      <Match />
+      {/* <DividerRight /> */}
+      {/* <Match /> */}
     </>
   );
 }

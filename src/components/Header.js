@@ -26,11 +26,11 @@ export default function Header() {
                             Mission
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#match">
                             Helsing
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
 

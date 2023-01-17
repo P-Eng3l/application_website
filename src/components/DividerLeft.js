@@ -4,7 +4,7 @@ import '../index.css'
 export default function DividerLeft() {
 
     return (
-        <div className="divider-grid-left">
+        <div className="divider-grid-left" id="mission">
             <span className="divider-text-inverted">
                 Mission Statement
             </span>

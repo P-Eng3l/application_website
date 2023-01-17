@@ -74,7 +74,7 @@ export default function Experience() {
     useEffect( () => {console.log(styleProjects)})
 
     return (
-        <div className="experience-grid" id="experience">
+        <div className="experience-grid">
             <div className="experience-grid-item">
                 <div className="experience-nav-grid">
 

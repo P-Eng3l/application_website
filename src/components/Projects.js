@@ -76,7 +76,7 @@ export default function Projects() {
             </button>
 
             <button className="experience-grid-center-projects-item"
-                onClick={() => openInNewTab('https://github.com/P-Eng3l/application_websitehttps://google.com')}
+                onClick={() => openInNewTab('https://github.com/P-Eng3l/application_website')}
                 onMouseOver={() => {setHovering2(true)}} onMouseOut={() => {setHovering2(false)}} >
                 <div style={style2} className="project-item-header">
                     Application Website
