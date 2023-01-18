@@ -11,7 +11,7 @@ export default function Principles() {
         setHovering1(false);
     };
     const display1 = {
-        minHeight: hovering1 === true ? '80px' : 'auto',
+        minHeight: hovering1 === true ? '180px' : 'auto',
     }
 
     const [hovering2, setHovering2] = useState(false);
@@ -46,10 +46,16 @@ export default function Principles() {
                     Mission Driven & Ownership Oriented
                 </div>
                 <p style={display1} className="project-item-tec">
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    Working independently means to make countless decisions of various granularities. 
+                    To do so, I always aim to have a clear understanding of the company's goals and 
+                    mission in order to align my daily actions accordingly. To achieve this working style 
+                    of accountability and results I use the following approach:
+                    <ol >
+                        <li style={{color: "rgb(188, 186, 186)"}}>Analyzing the overall mission: What is the intend and the desired endstate?</li>
+                        <li style={{color: "rgb(188, 186, 186)"}}>What are my resources at hand and what is missing?</li>
+                        <li style={{color: "rgb(188, 186, 186)"}}>What is the simplest course of action to achieve the task, while planning for contingencies and mitigating risks?</li>
+                        <li style={{color: "rgb(188, 186, 186)"}}>Continuously update key stakeholders and question the plan at hand.</li>
+                    </ol>
                 </p>
             </button>
             
@@ -59,10 +65,11 @@ export default function Principles() {
                     Proactive & Self-Managing
                 </div>
                 <p style={display2} className="project-item-tec">
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    Having realized that I do my best work when I am able to choose my tasks rather than 
+                    getting told what to do, I always try to be proactive and self-managing. 
+                    This includes taking responsibility for my performance, taking initiative by 
+                    anticipating and preparing for future challenges, and to continuously looking for ways 
+                    to improve and add value by asking: “What’s next”? 
                 </p>
             </button>
 
